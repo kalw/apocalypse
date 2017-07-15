@@ -25,7 +25,7 @@ $ easy_install dist/apocalypse-<version>.tar.gz
 ```
 or
 ```
-$ pip install git+https://github.com/dhoomakethu/apocalypso.git@master
+$ pip install git+https://github.com/kalw/apocalypso.git@master
 ```
 For Colored logs install coloredlogs
 ```
@@ -33,7 +33,7 @@ $ pip install git+https://github.com/dhoomakethu/python-coloredlogs.git@master
 ```
 
 ## Usage ##
-### To use with docker eco system as a container [wiki](https://github.com/dhoomakethu/apocalypse/wiki)
+### To use with docker eco system as a container [wiki](https://github.com/kalw/apocalypse/wiki)
 ```
 $ doom --help
 
