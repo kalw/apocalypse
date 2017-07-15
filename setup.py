@@ -30,7 +30,7 @@ with open('requirements.txt') as reqs:
         fix_ps_util(install_requires)
 
 setup(name="apocalypse",
-      url='https://github.com/dhoomakethu/apocalypse',
+      url='https://github.com/kalw/apocalypse',
       version=__version__,
       packages=['apocalypse', 'apocalypse.utils',
                 'apocalypse.chaos', 'apocalypse.app', 'apocalypse.chaos.events',
@@ -42,6 +42,6 @@ setup(name="apocalypse",
       install_requires=install_requires,
       scripts=['doom'],
       include_package_data=True,
-      # dependency_links=['https://github.com/dhoomakethu/python-coloredlogs'
+      # dependency_links=['https://github.com/kalw/python-coloredlogs'
       #                   '/tarball/master#egg=python-coloredlogs-5.0.1']
 )
